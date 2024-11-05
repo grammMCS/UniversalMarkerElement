@@ -1,0 +1,149 @@
+	<DIV CLASS='controls' STYLE='left:48;top:508;width:100;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Перший&nbsp;рядок:</SPAN></B></DIV>
+	<DIV CLASS='controls' STYLE='left:48;top:278;width:115;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Кількість&nbsp;елементів:</SPAN></DIV>
+	<INPUT CLASS='controls' STYLE='left:48;top:303;width:50;height:20;' TYPE=text NAME='editbox' VALUE='1'/>
+	<INPUT CLASS='controls' STYLE='left:48;top:533;width:125;height:20;' TYPE=text NAME='editbox1' VALUE='{""+Position}'/>
+	<INPUT CLASS='controls' STYLE='left:268;top:533;width:200;height:20;' TYPE=text NAME='editbox2' VALUE='{""+NameUnit}'/>
+	<DIV CLASS='controls' STYLE='left:268;top:508;width:195;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Найменування&nbsp;в&nbsp;специфікацію:</SPAN></B></DIV>
+	<INPUT CLASS='controls' STYLE='left:268;top:303;width:200;height:20;' TYPE=text NAME='editbox3' VALUE='крок 1000'/>
+	<DIV CLASS='controls' STYLE='border-width:1;border-style:solid;border-color:gray;left:28;top:483;width:460;height:170'>
+		<DIV CLASS='controls' STYLE='left:6;top:-6;background-color:ButtonFace'>
+			&nbsp;&nbsp;&nbsp;Контроль
+		</DIV>
+	</DIV>
+	<DIV CLASS='controls' STYLE='left:48;top:568;width:90;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Другий&nbsp;рядок:</SPAN></B></DIV>
+	<INPUT CLASS='controls' STYLE='left:48;top:613;width:125;height:20;' TYPE=text NAME='editbox5' VALUE='{""+Mark}'/>
+	<DIV CLASS='controls' STYLE='left:268;top:278;width:165;height:15;checked=1'>
+		<INPUT TYPE=checkbox ONFOCUS='blur()' ONCLICK='JavaScript:checkboxHandler(this)' NAME='checkbox255' >&nbsp;Відображати&nbsp;другий&nbsp;рядок</INPUT>
+	</DIV>
+	<SELECT CLASS='controls' ID='combobox' STYLE='left:48;top:363;width:125;value:Main' NAME='combobox'>
+		<OPTION>Main
+		<OPTION>Long Sleeve
+	</SELECT>
+	<DIV CLASS='controls' STYLE='left:48;top:338;width:160;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Варіанти&nbsp;виконання&nbsp;маркеру:</SPAN></DIV>
+	<DIV CLASS='controls' STYLE='left:268;top:338;width:165;height:15;checked=1'>
+		<INPUT TYPE=checkbox ONFOCUS='blur()' ONCLICK='JavaScript:checkboxHandler(this)' NAME='checkbox256' >&nbsp;Відображати&nbsp;третій&nbsp;рядок</INPUT>
+	</DIV>
+	<INPUT CLASS='controls' STYLE='left:268;top:363;width:200;height:20;' TYPE=text NAME='editbox4' VALUE='див. прим. 7'/>
+	<DIV CLASS='controls' STYLE='left:268;top:568;width:85;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Третій&nbsp;рядок:</SPAN></B></DIV>
+	<INPUT CLASS='controls' STYLE='left:268;top:613;width:125;height:20;' TYPE=text NAME='editbox6' VALUE='{""+Row3}'/>
+	<DIV CLASS='controls' STYLE='left:48;top:398;width:70;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Позначення:</SPAN></DIV>
+	<INPUT CLASS='controls' STYLE='left:48;top:423;width:125;height:20;' TYPE=text NAME='editbox7' VALUE='арк. 3'/>
+	<DIV CLASS='controls' STYLE='left:268;top:398;width:140;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Примітка&nbsp;в&nbsp;специфікацію:</SPAN></DIV>
+	<INPUT CLASS='controls' STYLE='left:268;top:423;width:200;height:20;' TYPE=text NAME='editbox8' VALUE=''/>
+	<DIV CLASS='controls' STYLE='border-width:1;border-style:solid;border-color:gray;left:28;top:253;width:460;height:210'>
+		<DIV CLASS='controls' STYLE='left:6;top:-6;background-color:ButtonFace'>
+			&nbsp;&nbsp;&nbsp;Вхідні&nbsp;дані:
+		</DIV>
+	</DIV>
+	<DIV CLASS='controls' STYLE='border-width:1;border-style:solid;border-color:gray;left:28;top:28;width:220;height:205'>
+		<DIV CLASS='controls' STYLE='left:6;top:-6;background-color:ButtonFace'>
+			&nbsp;&nbsp;&nbsp;Cкладальна&nbsp;одиниця:
+		</DIV>
+	</DIV>
+	<DIV CLASS='controls' STYLE='left:48;top:58;width:95;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Тип&nbsp;конструкції:</SPAN></DIV>
+	<DIV CLASS='controls' STYLE='left:48;top:113;width:145;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Найменування&nbsp;конструкції:</SPAN></DIV>
+	<DIV CLASS='controls' STYLE='left:48;top:168;width:70;height:15;'><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Марка:</SPAN></DIV>
+	<DIV CLASS='controls' STYLE='left:288;top:53;width:175;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Release&nbsp;Date:&nbsp;2024|01|31</SPAN></B></DIV>
+	<DIV CLASS='controls' STYLE='border-width:1;border-style:solid;border-color:gray;left:268;top:28;width:220;height:170'>
+		<DIV CLASS='controls' STYLE='left:6;top:-6;background-color:ButtonFace'>
+			&nbsp;&nbsp;&nbsp;Маркер&nbsp;Element&nbsp;2024.1
+		</DIV>
+	</DIV>
+	<DIV CLASS='controls' STYLE='left:288;top:73;width:160;height:15;'><B><SPAN STYLE='font-size:11;font-family:"CS Standard";color:000000'>Created&nbsp;by:&nbsp;Sham,&nbsp;Maksym</SPAN></B></DIV>
+	<IMG SRC='c:\Universal Marker Systems 2023\Element 2022\Маркер Element.jpg' STYLE='left:290;top:115;width:180;height:60;'>
+	<DIV CLASS='controls' STYLE='left:48;top:588;width:140;height:15;checked=1'>
+		<INPUT TYPE=checkbox ONFOCUS='blur()' ONCLICK='JavaScript:checkboxHandler(this)' NAME='checkbox513' >&nbsp;Відображати&nbsp;кількість</INPUT>
+	</DIV>
+	<DIV CLASS='controls' STYLE='left:268;top:588;width:140;height:15;checked=1'>
+		<INPUT TYPE=checkbox ONFOCUS='blur()' ONCLICK='JavaScript:checkboxHandler(this)' NAME='checkbox514' >&nbsp;Відображати&nbsp;кількість</INPUT>
+	</DIV>
+	<SELECT CLASS='controls' ID='combobox1' STYLE='left:48;top:83;width:180;value:' NAME='combobox1'>
+		<OPTION>Колони
+		<OPTION>Пілони
+		<OPTION>Стіни
+		<OPTION>Стовбчики
+		<OPTION>Балки
+		<OPTION>Прогони
+		<OPTION>Парапети
+		<OPTION>Контрфорси
+		<OPTION>Ростверки
+		<OPTION>Фундаменти
+		<OPTION>Стовбчики фундаментні
+		<OPTION>Балки фундаментні
+		<OPTION>Блоки фундаментні
+		<OPTION>Стіни підпірні
+		<OPTION>Закладні деталі
+		<OPTION>Каркаси
+		<OPTION>Перемички
+		<OPTION>Площадки сходові
+		<OPTION>Марші сходові
+		<OPTION>Петлі
+		<OPTION>Анкера
+		<OPTION>Упори
+		<OPTION>Рами
+		<OPTION>Сходи металеві
+		<OPTION>Вентиляційні блоки
+		<OPTION>Шахти
+		<OPTION>Сальники
+	</SELECT>
+	<SELECT CLASS='controls' ID='combobox2' STYLE='left:48;top:193;width:75;value:1' NAME='combobox2'>
+		<OPTION>Км-1
+		<OPTION>Пм-1
+		<OPTION>Ст-1
+		<OPTION>Сб-1
+		<OPTION>Бм-1
+		<OPTION>Пр-1
+		<OPTION>П-1
+		<OPTION>Кф-1
+		<OPTION>Р-1
+		<OPTION>Ф-1
+		<OPTION>Стф-1
+		<OPTION>Бф-1
+		<OPTION>Блф-1
+		<OPTION>Стп-1
+		<OPTION>Зд-1
+		<OPTION>Кр-1
+		<OPTION>Пм-1
+		<OPTION>Плсх-1
+		<OPTION>Мсх-1
+		<OPTION>Пл-1
+		<OPTION>А-1
+		<OPTION>Уп-1
+		<OPTION>Рм-1
+		<OPTION>Сх-1
+		<OPTION>Вб-1
+		<OPTION>Ш-1
+		<OPTION>Dy350
+	</SELECT>
+	<SELECT CLASS='controls' ID='combobox5' STYLE='left:48;top:138;width:180;value:' NAME='combobox5'>
+		<OPTION>Колона
+		<OPTION>Пілон
+		<OPTION>Стіна
+		<OPTION>Стовбчик
+		<OPTION>Балка
+		<OPTION>Прогон
+		<OPTION>Парапет
+		<OPTION>Контрфорс
+		<OPTION>Ростверк
+		<OPTION>Фундамент
+		<OPTION>Стовбчик фундаментний
+		<OPTION>Балка фундаментна
+		<OPTION>Блок фундаментний
+		<OPTION>Стіна підпірна
+		<OPTION>Закладна деталь
+		<OPTION>Каркас
+		<OPTION>Перемичка
+		<OPTION>Площадка сходова
+		<OPTION>Марш сходовий
+		<OPTION>Петля
+		<OPTION>Анкер
+		<OPTION>Упор
+		<OPTION>Рама
+		<OPTION>Сходи металеві
+		<OPTION>Вентиляційний блок
+		<OPTION>Шахта
+		<OPTION>Сальник
+	</SELECT>
+	<DIV CLASS='controls' STYLE='left:268;top:218;width:175;height:15;checked=1'>
+		<INPUT TYPE=checkbox ONFOCUS='blur()' ONCLICK='JavaScript:checkboxHandler(this)' NAME='checkbox26' >&nbsp;&nbsp;Враховувати&nbsp;в&nbsp;специфікацію</INPUT>
+	</DIV>

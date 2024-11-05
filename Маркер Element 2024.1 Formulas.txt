@@ -1,0 +1,82 @@
+Marker Type
+Тип маркера
+Element
+
+mcImplementation
+Виконання
+Main
+
+Unit
+Складальна одиниця
+
+UnitName
+Ім'я склад. одиниці
+
+NameUnit
+Найменування
+{UnitName+" "+Unit}
+
+ResultName
+Результат найменування
+{""+NameUnit}
+
+UnitNameSp
+Ім'я склад. одиниці в специфікації
+
+NameSpec
+Заголовок в специфікацію
+{UnitNameSp+":"}
+
+NumberUnitElCheck2
+Відображати кількість в 2-му рядку
+
+NumberUnitElCheck3
+Відображати кількість в 3-му рядку
+
+NumberUnitEl
+Кількість
+
+Note
+Примітка
+
+Note3
+Примітка 3 рядка
+
+NoteSpec
+Примітка в специфікацію
+
+Indication
+Позначення
+
+Position
+Position
+{Unit}
+
+ResultPos
+Результат типу
+{""+Position}
+
+MarkCheck
+Відображати 2 рядок
+
+Mark
+Mark
+{iff(MarkCheck==1,iff(NumberUnitElCheck2==1,"(шт. "+NumberUnitEl+")","("+Note+")"),"")}
+
+ResultMark
+Результат 2 рядка
+{""+Mark}
+
+Row3Check
+Відображати 3 рядок
+
+Row3
+Рядок 3
+{iff(Row3Check==1,iff(NumberUnitElCheck3==1,"(шт. "+NumberUnitEl+")","("+Note3+")"),"")}
+
+ResultRow3
+Результат 3 рядка
+{""+Row3}
+
+accountspec
+Враховувати в специфікацію
